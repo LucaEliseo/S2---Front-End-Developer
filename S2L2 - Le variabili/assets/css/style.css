@@ -1,0 +1,6 @@
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(69,191,252,1) 100%);
+    text-align: center;
+    line-height: 2.5;
+}
