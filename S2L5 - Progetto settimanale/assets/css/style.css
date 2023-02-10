@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgba(11, 36, 48, 0.774);
+}
+
+#container {
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+    color: white;
+}
+
+#calcolatrice {
+    width: 320px;
+    height: 520px;
+    background-color: #113f5e;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 40px;
+    box-shadow: 0 10px 16px 0 rgb(32, 32, 32), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#risultato {
+    height: 180px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+
+}
+
+.operatore,
+.numero,
+.vuoto {
+    /*Ridimensiono tutti i tasti della calcolatrice*/
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 20px;
+    font-family: 'Roboto' , sans-serif;
+}
+
+.numero {
+    background-color: transparent;
+    color: white;
+}
+
+.operatore {
+    background-color: lightgrey;
+}
+
+.numero,
+.operatore {
+    cursor: pointer;
+}
+
+.numero:active,
+.operatore:active {
+    /*(Effetto animazione)Al click tutti i button si ridimensionano con il font size di 13px*/
+    font-size: 13px;
+}
+
+
+/*Assegno i colori ai button*/
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(13) {
+    font-size: 20px;
+    background-color: #ff0707;
+}
+
+button:nth-child(15) {
+    font-size: 20px;
+    background-color: #9477af;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #158d5b;
+}
